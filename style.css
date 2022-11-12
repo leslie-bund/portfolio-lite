@@ -1,0 +1,70 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+.hero2-text {
+    font-size: 60px;
+    line-height: 50px;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+}
+.one-page {
+    height: 90vh;
+    width: 100vw;
+    background-image: url(background.jpg) ,linear-gradient(rgba(255, 192, 203, 0.14) 10%, rgba(128, 0, 128, 0.366));
+    background-size: cover;
+    background-position-x: center;
+    /* background: "background.jpg" no-repeat; */
+    /* background: fixed url(smile.png) no-repeat cover center right; */
+    background-blend-mode: overlay;
+}
+
+.brand-text{
+    font-family: papyrus;
+}
+
+.bord{
+    border: 1px solid red;
+}
+
+.hero-text {
+    text-shadow: 2px 2px 1px pink, 4px 5px 1px darkslateblue;
+}
+
+.image-positions {
+    top: 0;
+    left: 0;
+    /* bottom: 50; */
+}
+
+.image-shadow {
+    filter: drop-shadow(100px 0 40px rgb(109, 121, 135));
+}
+.section-below-image {
+    margin-top: 90px;
+}
+.header-sec {
+    margin-top: 1.5rem;
+}
+
+@media screen and (max-width: 526px) {
+    .header-sec {
+        margin-top: 0.8rem;
+        margin-left: auto;
+        /* transform: scale(0.8); */
+    }
+    .image-shadow {
+        filter: drop-shadow(100px 0 50px rgba(176, 196, 222, 0.498));
+    }
+    .my-img {
+        transform: rotate(-35deg);
+    }
+}
+
+.pad-end {
+    padding-right: 180px;
+}
+
